@@ -1,0 +1,13 @@
+# --- EMAS paper repo ---
+# 训练权重与医学影像体积文件不进 git(单文件>100MB 且含第三方数据)
+*.nii
+*.nii.gz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
